@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Liga Mistrzów</title>
+    <meta name="keyword" content="Quiz, Liga Mistrzów">
+    <meta name="description" content="Quiz piłkarski dla fanów Ligi Mistrzów">
+    <meta name="author" content="Patryk Smolarz">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="Hero__Wrapper">
+        <div class="Hero__Title">
+            <h1>Quiz - Liga Mistrzów</h1>
+            <div class="Counter hide">
+                <span class="Counter__Score">Wynik:</span>
+                <span id="wynik" class="Counter__Digit">0</span>
+            </div>
+        </div>
+        <div class="Hero__Logo">
+            <img src="images/football.svg" alt="Logo">
+        </div>
+    </header>
+    <div class="Quiz__Container">
+        <div class="Quiz__Controls hide">
+            <div class="Quiz__Question">Pytanie</div>
+            <button class="Quiz__Answer">Odpowiedz1</button>
+            <button class="Quiz__Answer">Odpowiedz2</button>
+            <button class="Quiz__Answer">Odpowiedz3</button>
+            <button class="Quiz__Answer">Odpowiedz4</button>
+        </div>
+        <div class="Quiz__ButtonsAnswers">
+            <button class="Start__Question">Start</button>
+            <button class="Next__Question hide">Next</button>
+            <button class="Finish__Question hide">Finish</button>
+        </div>
+        <div class="Finish__Score hide">
+            <p class="congrats">Gratulacje!</p>
+            <p class="About__Score">Udało ci się ukończyć quiz z wynikiem:</p>
+            <span class="Finish__Result">0</span>
+        </div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

@@ -2,6 +2,7 @@ import {
     scoreState,
     questionState
 } from './states.js';
+
 const scoreModule = scoreState(1);
 const questionModule = questionState();
 
